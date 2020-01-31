@@ -4,7 +4,7 @@ import Container from '../components/container';
 
 const Blog = () => {
     return (
-        <Layout>
+        <Layout title="Blog" description="Check out my blog to read my articles">
             <Container>
                 <p>No Post to display.</p>
             </Container>

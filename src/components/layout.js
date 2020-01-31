@@ -1,5 +1,6 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
+import { Helmet } from 'react-helmet';
 
 import reset from '../lib/reset.css';
 import Header from './header';
@@ -33,8 +34,16 @@ const globalStyles = css`
 `;
 
 const Layout = (props) => {
+  const title = props.title || "Maneksh M S";
+  const description = props.description || "Maneksh M S is a software developer living in India. Interested in Node.js and Javascript Frontend tools.";
   return (
     <div css={css`display: flex; flex-flow: column; justify-content: space-between; min-height: 100; height: 100%;`}>
+      <Helmet
+        title={title}
+        meta={[{name: `description`, content: description }]}
+      >
+        <meta name="theme-color" content="#e0f2f1"></meta>
+      </Helmet>
       <MobNavbar />
       <Global styles={globalStyles} />
       <div>

@@ -11,7 +11,7 @@ const StyledLink = styled.a(css`
 
 const Contact = () => {
     return (
-        <Layout>
+        <Layout title="Contact Maneksh M s" description="Contact Maneksh M S to find more about him">
             <Container>
                 <h2>Contact</h2>
                     <ListBox borderColor="transparent" background="#f5fbff" >
