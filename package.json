@@ -1,0 +1,32 @@
+{
+  "name": "manekshms.com",
+  "private": true,
+  "description": "Maneksh's personal website",
+  "version": "0.1.0",
+  "author": "Maneksh M S <manekshms@gmail.com> (http://manekshms.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "gatsby": "^2.18.12",
+    "gatsby-plugin-emotion": "^4.1.21",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manekshms/manekshms.com"
+  }
+}
