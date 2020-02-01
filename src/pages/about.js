@@ -6,7 +6,7 @@ import Container from '../components/container';
 
 export default () => {
     return (
-        <Layout title="About Maneksh M S" description="To know more about Maneksh M S">
+        <Layout title="About" description="To know more about Maneksh M S">
             <div>
                 <Container>
                     <h2 css={css`color: #424242`}>About Me</h2>
