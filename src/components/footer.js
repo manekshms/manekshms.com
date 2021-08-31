@@ -19,7 +19,7 @@ const Footer = () => {
                 }
             }
         `} >
-            <p>&copy; Copyright 2020 <a href="http://manekshms.com" >Maneksh M S</a></p>
+            <p>&copy; Copyright 2021 <a href="http://manekshms.com" >Maneksh M S</a></p>
         </footer>
     )
 }
