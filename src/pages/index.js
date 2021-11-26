@@ -26,7 +26,7 @@ export default () => {
                         }
                     `}>
                         <h3>Hi..</h3>
-                        <p>My name is Maneksh M S. I am a software developer living in India. Interested in Node.js and Javascript Frontend tools.</p>
+                        <p>My name is Maneksh M S. I am a software developer living in United Kingdom. Interested in Node.js and Javascript Frontend tools.</p>
                         <div css={css`
                             display: flex;
                             a {
